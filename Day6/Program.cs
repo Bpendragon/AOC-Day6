@@ -10,6 +10,13 @@ namespace Day6
 	{
 		static void Main(string[] args)
 		{
+			System.IO.StreamReader file = new System.IO.StreamReader("input.txt");
+			string line;
+
+			while ((line = file.ReadLine()) != null)
+			{
+
+			}
 		}
 	}
 }
